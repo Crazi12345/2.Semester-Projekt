@@ -20,7 +20,7 @@ public class Persistence implements IPersistence {
     }
 
     @Override
-    public void updateBrand(Brand brand) {
+    public void updateBrand(int id, Brand brand) {
 
     }
 
