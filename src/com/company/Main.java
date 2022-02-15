@@ -1,8 +1,11 @@
 package com.company;
 
+import services.JsonService;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	JsonService s = new JsonService();
+    s.deserializeBrand();
     }
 }
